@@ -89,5 +89,21 @@ public class Main {
         // edit string
         System.out.println(EditDistanceSoln.minDistanceMemo("horse", "ros"));
         System.out.println(EditDistanceSoln.minDistanceTab("horse", "ros"));
+        // bst
+        // trie
+        Trie trie = new Trie();
+        trie.add("absolve");
+        System.out.println(trie.contains("absolve"));
+        trie.add("absolute");
+        System.out.println(trie.contains("absolute"));
+        trie.add("effect");
+        System.out.println(trie.contains("effect"));
+        trie.add("effective");
+        System.out.println(trie.contains("effective"));
+        trie.add("efficient");
+        System.out.println(trie.contains("efficient"));
+        trie.add("elegant");
+        System.out.println(trie.contains("elegant"));
+        trie.printSorted();
     }
 }
