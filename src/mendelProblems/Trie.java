@@ -125,7 +125,6 @@ public class Trie {
     private void printSortedHelper(Node node, String str) {
         if (node.isLeaf) {
             System.out.println(str);
-            return;
         }
         for (Node child : node.children) {
             if (child != null) {

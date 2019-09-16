@@ -92,6 +92,8 @@ public class Main {
         // bst
         // trie
         Trie trie = new Trie();
+        trie.add("abs");
+        System.out.println(trie.contains("abs"));
         trie.add("absolve");
         System.out.println(trie.contains("absolve"));
         trie.add("absolute");

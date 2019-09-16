@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ac62a5-5234-40a0-8d94-89b544276d5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mendelProblems/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mendelProblems/BSTIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mendelProblems/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mendelProblems/ValidateBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/markcuipan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/markcuipan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctciCh4/Trees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mendelProblems/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/BST$Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/BST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/mendelProblems/Trie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mendelProblems/Trees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mendelProblems/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mendelProblems/Trie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,36 +24,37 @@
     <session id="-1619761018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="24207" />
+          <entry key="java" value="26890" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24207" />
+          <entry key="JAVA" value="26890" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -62,8 +64,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2496">
-              <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+            <state relative-caret-position="2544">
+              <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mendelProblems/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2653">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,20 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mendelProblems/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3537">
-              <caret line="221" column="5" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
+            <state relative-caret-position="4680">
+              <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#2218#2219#0" expanded="true" />
-                <element signature="e#2262#2263#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ctciCh4/Trees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -101,13 +118,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mendelProblems/BSTIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="480">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mendelProblems/ValidateBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
+            <state relative-caret-position="528">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mendelProblems/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="131" column="58" selection-start-line="131" selection-start-column="58" selection-end-line="131" selection-end-column="58" />
+            <state relative-caret-position="2928">
+              <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
               <folding>
                 <element signature="e#3136#3137#0" expanded="true" />
                 <element signature="e#3179#3180#0" expanded="true" />
@@ -177,10 +192,12 @@
         <option value="$PROJECT_DIR$/src/mendelProblems/HouseRobberSoln.java" />
         <option value="$PROJECT_DIR$/src/mendelProblems/Trees.java" />
         <option value="$PROJECT_DIR$/src/mendelProblems/ValidateBST.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/mendelProblems/Trie.java" />
         <option value="$PROJECT_DIR$/src/mendelProblems/BSTIterator.java" />
         <option value="$PROJECT_DIR$/src/mendelProblems/BST.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ctciCh4/Trees.java" />
+        <option value="$PROJECT_DIR$/src/mendelProblems/Trie.java" />
+        <option value="$PROJECT_DIR$/src/mendelProblems/Graph.java" />
       </list>
     </option>
   </component>
@@ -194,6 +211,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,12 +247,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544927429934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545801272042" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RunDashboard">
@@ -282,7 +300,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12576313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13064714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -292,7 +310,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32883817" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32883817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,13 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-546">
           <caret line="83" column="36" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+        <state relative-caret-position="2544">
+          <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -423,20 +434,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mendelProblems/Trie.java">
+    <entry file="file://$PROJECT_DIR$/src/mendelProblems/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="131" column="58" selection-start-line="131" selection-start-column="58" selection-end-line="131" selection-end-column="58" />
+        <state relative-caret-position="4680">
+          <caret line="205" column="34" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
           <folding>
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ctciCh4/Trees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mendelProblems/BSTIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mendelProblems/ValidateBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
+        <state relative-caret-position="528">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -444,31 +472,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mendelProblems/BSTIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/mendelProblems/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="2928">
+          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mendelProblems/BST.java">
+    <entry file="file://$PROJECT_DIR$/src/mendelProblems/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3537">
-          <caret line="221" column="5" selection-start-line="221" selection-start-column="5" selection-end-line="221" selection-end-column="5" />
+        <state relative-caret-position="-2653">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2262#2263#0" expanded="true" />
           </folding>
         </state>
       </provider>
